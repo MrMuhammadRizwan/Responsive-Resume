@@ -1,0 +1,128 @@
+/*
+* Muhammad Rizwan
+* +92 3076494781
+* Responsive Resume
+*/
+	body{
+		font-size: 22px;
+	}
+	.my-name{
+	    font-size: 66px;
+	    text-transform: uppercase;
+	    margin-bottom: 0px;
+	    margin-top: 9%;
+	}
+	.my-salog{
+	    font-size: 32px;
+	}
+	.content-wrap{
+		margin-top: 41px;
+	}
+	.content-wrap h2{
+		text-transform: uppercase;
+		background: url(../images/heading-bullet.png) no-repeat left top 4px;
+		padding-left: 44px;
+		font-weight: 600;
+		margin-bottom: 30px;
+	}
+	.content-wrap #right h2{
+		margin-top: 0px;
+	}
+	.content-wrap #left{
+		background: #414439;
+		color: #ffffff;
+	}
+	.content-wrap #left p{
+		color: #ffffff;
+		word-wrap: break-word;
+	}
+	.content-wrap #right{
+		background: #ffffff;
+	}
+	.contact-wrap{
+		display: inline-block;
+	}
+	.alin-right{
+		text-align: right;
+	}
+	.i-con{
+		float: left;
+		width: 17%;
+	}
+	.i-con i{
+	    background: #459f45;
+	    border-radius: 50%;
+	    padding: 7px;
+	    margin-right: 10px;
+	    width: 37px;
+	    text-align: center;
+	}
+	.t-ext{
+		float: left;
+		width: 82%;
+	}
+	.list-warp{
+		display: inline-block;
+		width: 100%;
+	}
+	.border-on-dark{
+		    border-bottom:1px solid #459f45
+	}
+	.upper-case{
+		text-transform: uppercase;
+		color: #459f45;
+		font-weight: bold;
+	}
+	.fill{
+		color: #459f45;
+	}
+	.green{
+		color: #459f45;
+	}
+	.border-grey{
+		border-bottom: 1px solid #ccc;
+		padding-bottom: 10px;
+		margin-bottom: 30px;
+	}
+	.flaot-right{
+		float: right;
+	}
+	footer #bottom{
+		min-height: 71px;
+		background: #459f45;
+	}
+	#flex{
+		display: flex;
+	}
+	@media (max-width: 480px){
+		.content-wrap h2{
+			font-size: 25px;
+			padding-top: 3px;
+		}
+	}
+	@media (max-width: 1024px){
+		#flex{
+			display: block;
+		}
+		#m-p{
+			margin-top: 25px;
+		}
+		.h-i{
+		    min-height: 67px;
+		}
+		.my-name{
+		    font-size: 5.7vw;
+		    text-transform: uppercase;
+		    margin-bottom: 0px;
+		    margin-top: 9%;
+		}
+		.my-salog{
+		    font-size: 3.2vw;
+		}
+		body{
+			font-size: 18px;
+		}
+		.i-con i{
+			width: 33px;
+		}
+	}
